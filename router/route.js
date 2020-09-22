@@ -9,7 +9,7 @@ router.post('/creditcard', async (req, res) => {
         if (!amount || !currency || !type || !card) {
             return res.status(400).json({ message: "fill all the field" })
         }
-        const newuser = new User({
+        const newUser = new User({
             amount,
             currency,
             type,
@@ -53,7 +53,7 @@ router.post('/debitcard', async (req, res) => {
             card
 
         })
-        await newuser.save()
+        await newUser.save()
             .then(() => {
                 res.json({
                     message: {
