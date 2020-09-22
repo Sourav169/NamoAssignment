@@ -1,0 +1,2 @@
+# NamoAssignment
+Start=npm start
