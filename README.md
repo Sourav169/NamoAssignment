@@ -1,3 +1,4 @@
 # NamoAssignment
+npm install
 Start=npm start
-DataBase=Mongodb Atlas
+
